@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <div className="pt-[100px] text-white bg-violet-950">
+    <div className="pt-[80px] text-white bg-violet-950">
       <div className="w-[80%] mx-auto flex flex-col items-center md:flex-row justify-between">
         <div className="">
           <div className="w-[100px] mb-5">
             <img src="logo.png" alt="logo" />
           </div>
-          <p>Một sản phẩm của nhóm: Tốt nghiệp sớm</p>
-          <p>Ngày công chiếu: comming soon</p>
+          <p>Production of team: Tốt nghiệp sớm</p>
+          <p>Released: comming soon</p>
         </div>
         <div className="my-20 md:my-0">
           <p className="text-xl font-bold mb-5">Menu</p>
@@ -27,10 +27,7 @@ const Footer = () => {
             nhập mới nhất
           </p>
           <div className="relative">
-            <input
-              className="w-[300px] mb-5 bg-white text-black px-5 py-5 rounded-3xl"
-              value="Nhập email"
-            />
+            <input className="w-[300px] mb-5 bg-white text-black px-5 py-5 rounded-3xl" />
             <div className="absolute right-2 top-2 bg-red-700 ml-5 w-[140px] h-[50px] text-white text-center leading-[50px] font-bold rounded-3xl hover:cursor-pointer hover:bg-red-500">
               Subcribe now
             </div>
