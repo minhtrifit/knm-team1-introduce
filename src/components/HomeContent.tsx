@@ -13,7 +13,12 @@ const HomeContent = () => {
         </p>
         <div className="flex justify-around mt-10">
           <div className="bg-red-700 w-[140px] h-[50px] text-white text-center leading-[50px] font-bold rounded-3xl hover:cursor-pointer hover:bg-red-500">
-            Video
+            <a
+              href="https://www.youtube.com/watch?v=hWFGvGted80s"
+              target="_blank"
+            >
+              Video
+            </a>
           </div>
           <div className="w-[140px] h-[50px] border-gray-950 border border-solid text-center leading-[45px] font-bold rounded-3xl hover:cursor-pointer hover:bg-gray-500 hover:text-white">
             Learn more
